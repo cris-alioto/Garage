@@ -2,7 +2,7 @@
 --
 - posti[15] : VeicoloAMotore
 --
-+ aggiungiVeicolo() : int
++ aggiungiVeicolo(VeicoloAMotore v) : int
 + estraiVeicolo(int posto) : VeicoloAMotore
 --
 Resp.
