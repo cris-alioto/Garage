@@ -14,6 +14,4 @@ Si implementi poi una classe Garage, dotata di  15 posti, ognuna dei quali è id
 
 Eseguire il test della classe realizzata mediante la classe MainGarage.
 
-CONSEGNARE il link su github del vostro progetto contenente: 
-DIagramma UML.
-Codice funzionante.
+Progetto in Java, IDE = Netbeans
