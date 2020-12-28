@@ -1,6 +1,6 @@
 <diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>210</y><w>250</w><h>160</h></coordinates><panel_attributes>(C) Garage
 --
-- posti[15] : int
+- posti[15] : VeicoloAMotore
 --
 + aggiungiVeicolo() : int
 + estraiVeicolo(int posto) : VeicoloAMotore
