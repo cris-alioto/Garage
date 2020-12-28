@@ -1,4 +1,4 @@
-#Compito
+# Compito
 
 Si realizzi un progetto Java per la gestione di un garage pubblico, secondo le specifiche seguenti. 
 
