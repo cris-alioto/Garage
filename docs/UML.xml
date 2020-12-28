@@ -11,11 +11,11 @@ posti nel garage: stampa per ogni posto
 tutte le informazioni disponibili sul veicolo 
 che lo sta occupando.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>210</y><w>220</w><h>110</h></coordinates><panel_attributes>(C) VeicoloAMotore
 --
-- marca : String
-- modello : String
-- tipo_alimentazione : Alimentazione
-- cilindrata : double
-- anno_immatricolazione : int
+# marca : String
+# modello : String
+# tipo_alimentazione : Alimentazione
+# cilindrata : double
+# anno_immatricolazione : int
 
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>500</y><w>160</w><h>50</h></coordinates><panel_attributes>(C) Furgone
