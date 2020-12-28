@@ -1,0 +1,47 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>210</y><w>250</w><h>160</h></coordinates><panel_attributes>(C) Garage
+--
+- posti[15] : int
+--
++ aggiungiVeicolo() : int
++ estraiVeicolo(int posto) : VeicoloAMotore
+--
+Resp.
+- il toString stampa la situazione corrente dei 
+posti nel garage: stampa per ogni posto 
+tutte le informazioni disponibili sul veicolo 
+che lo sta occupando.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>210</y><w>220</w><h>110</h></coordinates><panel_attributes>(C) VeicoloAMotore
+--
+- marca : String
+- modello : String
+- tipo_alimentazione : Alimentazione
+- cilindrata : double
+- anno_immatricolazione : int
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>500</y><w>160</w><h>50</h></coordinates><panel_attributes>(C) Furgone
+--
+- cap_carico : double
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>80</y><w>210</w><h>50</h></coordinates><panel_attributes>(E) Alimentazione
+--
+BENZINA, DIESEL, IBRIDA;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>500</y><w>160</w><h>50</h></coordinates><panel_attributes>(C) Automobile
+--
+- porte : int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>500</y><w>160</w><h>50</h></coordinates><panel_attributes>(C) Motocicletta
+--
+- tipologia : String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>770</x><y>250</y><w>230</w><h>40</h></coordinates><panel_attributes>Getters, Setters, Constructor &amp; toString
+sono presenti in tutte le classi
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>50</y><w>240</w><h>100</h></coordinates><panel_attributes>(C) MainGarage
+--
++ main(String args[]) : void
+--
+Resp.
+- Esegue il test del garage
+- Gestisce input e output del progrramma</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>310</y><w>150</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>310</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>310</y><w>150</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;190</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>210</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>140</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.
+&lt;&lt;create&gt;&gt;</panel_attributes><additional_attributes>10;70;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>250</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+&lt;&lt;uses&gt;&gt;</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>120</y><w>140</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+&lt;&lt;uses enumeration&gt;&gt;
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
